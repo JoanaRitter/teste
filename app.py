@@ -18,7 +18,7 @@ def hello():
 def result():
     print(request)
     
-    # Implemente sua lógica aqui e insira as respostas na variável 'resposta'
+    # Implemente sua lÃ³gica aqui e insira as respostas na variÃ¡vel 'resposta'
     
     resposta = {
         "iotData": "data",
@@ -47,7 +47,7 @@ def predict():
     image = Image.open(io.BytesIO(image))
     image = prepare_image(image)
 
-    # Faça uma requisição para o serviço Watson Machine Learning aqui e retorne a classe detectada na variável 'resposta'
+    # FaÃ§a uma requisiÃ§Ã£o para o serviÃ§o Watson Machine Learning aqui e retorne a classe detectada na variÃ¡vel 'resposta'
     
     resposta = {
         "class": "data"
